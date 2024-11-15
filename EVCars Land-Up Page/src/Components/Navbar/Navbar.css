@@ -1,0 +1,43 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 120px;
+    color: white;
+}
+
+.nav-logo{
+    font-size: 40px;
+    font-weight: 500;
+    /* background: #17B169; */
+    background: #32de84;
+    background-clip: text;
+    color: transparent
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 22px;
+    gap: 90px;
+    font-weight: 500;
+    color: #4FFFB0;
+}
+
+.nav-menu li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.nav-contact{
+    border-radius: 50px;
+    padding: 10px 38px;
+    background:#fff;
+    color: #4FFFB0;
+}
+
+.nav-contact:hover{
+    color: white;
+    background: #4FFFB0;
+}
